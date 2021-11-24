@@ -1,0 +1,8 @@
+-   id: sops-secrets
+    name: sops-secrets
+    entry: sops_secrets
+    description: 'Makes sure that you are not commiting unencrypted SOPS secrets.'
+    language: python
+    require_serial: true
+    pass_filenames: false
+    args: ['--files']
